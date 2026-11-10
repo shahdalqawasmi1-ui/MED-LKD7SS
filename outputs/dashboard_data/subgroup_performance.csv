@@ -1,0 +1,10 @@
+dimension,subgroup,patients,windows,events,auroc,event_sensitivity
+Sex,F,23,25401,20,0.832,0.85
+Sex,M,17,18066,19,0.861,0.842
+Genotype,HbSC / HbSβ+,8,8242,9,0.88,0.778
+Genotype,HbSS / HbSβ0,32,35225,30,0.833,0.867
+Age,18–30,18,18054,25,0.877,0.8
+Age,< 18,7,8091,4,0.824,1.0
+Age,> 30,15,17322,10,0.778,0.9
+Therapy,No hydroxyurea,14,14392,19,0.84,0.789
+Therapy,On hydroxyurea,26,29075,20,0.86,0.9

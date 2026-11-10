@@ -1,0 +1,85 @@
+{
+  "proposed_model": "M5_bilstm.npz",
+  "threshold": 0.31699347496032715,
+  "channels": [
+    "ppg_pi_520",
+    "ppg_pi_660",
+    "ppg_pi_940",
+    "ppg_pi_810",
+    "ror_660_940",
+    "spo2_est",
+    "transit_delay_810_ms",
+    "heart_rate_bpm",
+    "hrv_rmssd_ms",
+    "eda_tonic_us",
+    "eda_scr_per_min",
+    "skin_temp_c",
+    "ambient_temp_c",
+    "steps_per_hour",
+    "signal_quality"
+  ],
+  "population_scale": [
+    0.34189119875192736,
+    0.31228226336641207,
+    0.2786718099170832,
+    0.347436297930491,
+    0.06901408450704231,
+    1.7049666419570138,
+    21.275018532246122,
+    11.415863602668637,
+    10.971089696071168,
+    0.566297144271994,
+    1.4084507042253522,
+    0.8228317272053421,
+    8.821349147516678,
+    3.3927136482330567,
+    0.11119347664936984
+  ],
+  "results": [
+    {
+      "model_id": "M1",
+      "model": "Rule-based threshold",
+      "auroc": 0.5839,
+      "auprc": 0.0316,
+      "event_sensitivity": 0.8205,
+      "median_lead_h": 16.5,
+      "false_alerts_per_patient_week": 9.1871
+    },
+    {
+      "model_id": "M2",
+      "model": "Random forest, summary features",
+      "auroc": 0.7498,
+      "auprc": 0.1631,
+      "event_sensitivity": 0.6923,
+      "median_lead_h": 14.0,
+      "false_alerts_per_patient_week": 1.2986
+    },
+    {
+      "model_id": "M3",
+      "model": "Bi-LSTM + attention, population baseline",
+      "auroc": 0.6541,
+      "auprc": 0.0417,
+      "event_sensitivity": 0.2051,
+      "median_lead_h": 9.0,
+      "false_alerts_per_patient_week": 0.4715
+    },
+    {
+      "model_id": "M4",
+      "model": "Bi-LSTM + attention, consumer sensors",
+      "auroc": 0.8386,
+      "auprc": 0.4123,
+      "event_sensitivity": 0.6923,
+      "median_lead_h": 10.0,
+      "false_alerts_per_patient_week": 0.1507
+    },
+    {
+      "model_id": "M5",
+      "model": "SicklePredict (proposed)",
+      "auroc": 0.8463,
+      "auprc": 0.5382,
+      "event_sensitivity": 0.8462,
+      "median_lead_h": 12.0,
+      "false_alerts_per_patient_week": 0.1314
+    }
+  ]
+}

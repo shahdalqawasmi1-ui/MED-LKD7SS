@@ -1,0 +1,75 @@
+=== Step A: synthetic database ===
+patients: 200 | hourly rows: 288,000 | VOC events: 234
+            count  sum
+data_split            
+test           40   46
+train         120  144
+validation     40   44
+saved /home/claude/SicklePredict_Prototype/data/SicklePredict_Synthetic_Database.xlsx
+
+=== Step B: model training & evaluation ===
+1/6  Checking Bi-LSTM gradients … max relative error 1.6e-07
+2/6  Loading data …
+3/6  Building personal and population baselines, 24-h windows …
+     train      windows 128,412   positive 3,139 (2.44 %)
+     validation windows  43,965   positive   977 (2.22 %)
+     test       windows  43,467   positive   938 (2.16 %)
+     training sample: 3,139 positive + 25,112 negative windows
+4/6  Training and evaluating models …
+  M1  Rule-based threshold
+     test AUROC 0.584 (0.502–0.657)  AUPRC 0.032  event sens 0.82  median lead 16 h  false alerts/pt-week 9.19
+  M2  Random forest, summary features
+     test AUROC 0.750 (0.685–0.810)  AUPRC 0.163  event sens 0.69  median lead 14 h  false alerts/pt-week 1.30
+  M3  Bi-LSTM + attention, population baseline
+  epoch  1  loss 0.6805  val AUPRC 0.0384
+  epoch  2  loss 0.6357  val AUPRC 0.1001
+  epoch  3  loss 0.5876  val AUPRC 0.1391
+  epoch  4  loss 0.5522  val AUPRC 0.1617
+  epoch  5  loss 0.5265  val AUPRC 0.1624
+  epoch  6  loss 0.4987  val AUPRC 0.1662
+  epoch  7  loss 0.4716  val AUPRC 0.1414
+  epoch  8  loss 0.4450  val AUPRC 0.1184
+  epoch  9  loss 0.4287  val AUPRC 0.1392
+  epoch 10  loss 0.4091  val AUPRC 0.1284
+  epoch 11  loss 0.3860  val AUPRC 0.1262
+  epoch 12  loss 0.3854  val AUPRC 0.1138
+  early stop (best val AUPRC 0.1662)
+     test AUROC 0.654 (0.576–0.735)  AUPRC 0.042  event sens 0.21  median lead 9 h  false alerts/pt-week 0.47
+  M4  Bi-LSTM + attention, consumer sensors
+  epoch  1  loss 0.6204  val AUPRC 0.3504
+  epoch  2  loss 0.5137  val AUPRC 0.3993
+  epoch  3  loss 0.4905  val AUPRC 0.3927
+  epoch  4  loss 0.4739  val AUPRC 0.3976
+  epoch  5  loss 0.4573  val AUPRC 0.3947
+  epoch  6  loss 0.4462  val AUPRC 0.3801
+  epoch  7  loss 0.4240  val AUPRC 0.3866
+  epoch  8  loss 0.4100  val AUPRC 0.3889
+  early stop (best val AUPRC 0.3993)
+     test AUROC 0.839 (0.782–0.886)  AUPRC 0.412  event sens 0.69  median lead 10 h  false alerts/pt-week 0.15
+  M5  SicklePredict (proposed)
+  epoch  1  loss 0.6014  val AUPRC 0.4683
+  epoch  2  loss 0.4502  val AUPRC 0.5310
+  epoch  3  loss 0.4094  val AUPRC 0.5465
+  epoch  4  loss 0.3920  val AUPRC 0.5532
+  epoch  5  loss 0.3767  val AUPRC 0.5554
+  epoch  6  loss 0.3605  val AUPRC 0.5512
+  epoch  7  loss 0.3403  val AUPRC 0.5518
+  epoch  8  loss 0.3266  val AUPRC 0.5467
+  epoch  9  loss 0.3084  val AUPRC 0.5386
+  epoch 10  loss 0.2917  val AUPRC 0.5288
+  epoch 11  loss 0.2692  val AUPRC 0.5231
+  early stop (best val AUPRC 0.5554)
+     test AUROC 0.846 (0.796–0.897)  AUPRC 0.538  event sens 0.85  median lead 12 h  false alerts/pt-week 0.13
+5/6  Explaining the proposed model …
+6/6  Writing dashboard files …
+
+RESULTS (held-out test patients)
+model_id                                    model  auroc  auprc  sensitivity  specificity  event_sensitivity  median_lead_h  false_alerts_per_patient_week
+      M1                     Rule-based threshold  0.584  0.032        0.648        0.459              0.821           16.5                          9.187
+      M2          Random forest, summary features  0.750  0.163        0.311        0.940              0.692           14.0                          1.299
+      M3 Bi-LSTM + attention, population baseline  0.654  0.042        0.090        0.975              0.205            9.0                          0.472
+      M4    Bi-LSTM + attention, consumer sensors  0.839  0.412        0.344        0.995              0.692           10.0                          0.151
+      M5                 SicklePredict (proposed)  0.846  0.538        0.459        0.996              0.846           12.0                          0.131
+
+Done in 5.8 min. Dashboard files: /home/claude/SicklePredict_Prototype/outputs/dashboard_data
+EXIT 0

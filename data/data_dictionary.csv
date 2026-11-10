@@ -1,0 +1,54 @@
+table,column,unit,description,model_role
+patients,patient_id,,Pseudonymised patient code,no
+patients,age_years,years,Age at enrolment,no
+patients,sex,F/M,Sex,no
+patients,genotype,,"SCD genotype: HbSS, HbSβ0, HbSβ+, HbSC",no
+patients,region,,Region of residence in Saudi Arabia,no
+patients,hydroxyurea,0/1,On hydroxyurea therapy,no
+patients,hbf_percent,%,Fetal haemoglobin,no
+patients,baseline_hb_g_dl,g/dL,Steady-state haemoglobin,no
+patients,bmi,kg/m²,Body-mass index,no
+patients,voc_episodes_prior_12m,count,VOC episodes in the 12 months before enrolment (inclusion ≥ 3),no
+patients,ed_visits_prior_12m,count,SCD-related ED visits in prior 12 months,no
+patients,admissions_prior_12m,count,SCD-related admissions in prior 12 months,no
+patients,monitoring_start,date,First day of wristband wear,no
+patients,voc_events_during_monitoring,count,VOC onsets observed during the 60-day study,no
+patients,wear_time_percent,%,Share of hours the device was worn,no
+patients,data_split,,train / validation / test (split by patient),no
+patients,sim_signature_strength,0–1,SIMULATION ONLY: how strongly this patient expresses a prodrome,no
+wearable_hourly,timestamp,datetime,Start of the hourly aggregation window,no
+wearable_hourly,ppg_pi_520,%,Green (520 nm) PPG perfusion index (AC/DC×100): superficial capillary perfusion,yes
+wearable_hourly,ppg_pi_660,%,Red (660 nm) PPG perfusion index,yes
+wearable_hourly,ppg_pi_940,%,Near-infrared (940 nm) PPG perfusion index,yes
+wearable_hourly,ppg_pi_810,%,Isosbestic (810 nm) PPG perfusion index: oxygenation-independent blood volume,yes
+wearable_hourly,ror_660_940,ratio,Ratio-of-ratios (AC660/DC660)/(AC940/DC940): rises with deoxygenation,yes
+wearable_hourly,spo2_est,%,SpO2 estimated as 110 − 25 × ratio-of-ratios,yes
+wearable_hourly,transit_delay_810_ms,ms,Microvascular pulse transit delay on the 810 nm channel,yes
+wearable_hourly,heart_rate_bpm,bpm,Mean heart rate,yes
+wearable_hourly,hrv_rmssd_ms,ms,Heart-rate variability (RMSSD),yes
+wearable_hourly,eda_tonic_us,µS,Electrodermal activity: tonic skin-conductance level,yes
+wearable_hourly,eda_scr_per_min,1/min,Electrodermal activity: skin-conductance responses per minute,yes
+wearable_hourly,skin_temp_c,°C,Peripheral (wrist) thermistor temperature,yes
+wearable_hourly,ambient_temp_c,°C,Local outdoor temperature from the paired phone/weather service,yes
+wearable_hourly,steps_per_hour,steps,Accelerometer step count,yes
+wearable_hourly,signal_quality,0–1,Accelerometer-referenced PPG signal-quality index,yes
+wearable_hourly,device_worn,0/1,Wristband on-skin detection (0 → all wearable channels empty),yes (as mask)
+wearable_hourly,sleep_detected,0/1,Sleep detected by the wristband,no
+wearable_hourly,pain_score_app,0–10,"Self-reported pain from app check-ins (09:00, 21:00)",no
+wearable_hourly,voc_onset,0/1,1 at the hour a VOC began,label
+wearable_hourly,voc_active,0/1,1 while a VOC is ongoing,label
+wearable_hourly,hours_to_next_onset,h,Hours until the next VOC onset,label
+wearable_hourly,label_voc_next_24h,0/1,PREDICTION TARGET: a VOC starts within the next 24 h,target
+wearable_hourly,eval_exclude,0/1,"Hour excluded from evaluation (calibration week, crisis, 72 h recovery)",no
+wearable_hourly,sim_prodrome_intensity,0–1,SIMULATION ONLY: true pre-crisis signal intensity,no
+wearable_hourly,sim_aborted_episode,0/1,SIMULATION ONLY: prodrome-like episode that did not become a VOC,no
+wearable_hourly,sim_cold_exposure,0/1,SIMULATION ONLY: hidden cold-exposure episode,no
+wearable_hourly,sim_infection,0/1,SIMULATION ONLY: hidden intercurrent infection,no
+voc_events,event_id,,Event code,no
+voc_events,onset_time,datetime,VOC onset (first hour of pain requiring treatment),label
+voc_events,crisis_duration_h,h,Duration of the crisis,no
+voc_events,care_setting,,home-managed / ED visit / admitted,no
+voc_events,likely_trigger,,Trigger recorded in the 24 h before onset,no
+voc_events,peak_pain_score,0–10,Peak self-reported pain,no
+voc_events,sim_prodrome_lead_h,h,SIMULATION ONLY: true length of the pre-crisis signature,no
+voc_events,sim_prodrome_intensity,0–1,SIMULATION ONLY: true prodrome strength,no

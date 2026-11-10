@@ -1,0 +1,235 @@
+event_id,patient_id,onset_time,onset_hour_index,crisis_duration_h,care_setting,likely_trigger,peak_pain_score,sim_prodrome_lead_h,sim_prodrome_intensity
+SP-001-E1,SP-001,2026-02-26 04:00:00,340,148,ED visit,none identified,7,17,0.521
+SP-003-E1,SP-003,2026-03-02 08:00:00,752,64,admitted,none identified,8,33,0.326
+SP-005-E1,SP-005,2026-07-23 16:00:00,952,80,ED visit,cold exposure,9,44,0.428
+SP-006-E1,SP-006,2026-02-10 12:00:00,708,119,ED visit,none identified,9,41,0.452
+SP-006-E2,SP-006,2026-03-03 11:00:00,1211,135,ED visit,none identified,8,19,0.365
+SP-007-E1,SP-007,2026-07-09 08:00:00,272,168,home-managed,cold exposure,7,34,0.194
+SP-007-E2,SP-007,2026-08-17 02:00:00,1202,117,home-managed,heat / dehydration,6,19,0.149
+SP-008-E1,SP-008,2026-05-09 08:00:00,584,160,admitted,cold exposure,7,44,0.666
+SP-010-E1,SP-010,2026-03-05 23:00:00,1007,57,home-managed,none identified,9,12,0.903
+SP-011-E1,SP-011,2026-01-28 03:00:00,507,66,home-managed,none identified,9,31,0.486
+SP-012-E1,SP-012,2026-07-24 00:00:00,216,97,home-managed,heat / dehydration,10,34,0.218
+SP-013-E1,SP-013,2026-06-08 22:00:00,142,92,home-managed,infection,8,29,0.836
+SP-013-E2,SP-013,2026-07-14 22:00:00,1006,140,ED visit,cold exposure,10,46,0.769
+SP-014-E1,SP-014,2026-05-14 19:00:00,475,68,admitted,cold exposure,6,30,0.567
+SP-017-E1,SP-017,2026-06-22 20:00:00,68,69,home-managed,cold exposure,8,46,0.396
+SP-018-E1,SP-018,2026-09-02 02:00:00,242,117,ED visit,cold exposure,10,40,0.709
+SP-019-E1,SP-019,2026-06-19 22:00:00,406,49,admitted,cold exposure,6,15,0.601
+SP-019-E2,SP-019,2026-07-19 11:00:00,1115,69,ED visit,heat / dehydration,7,46,0.512
+SP-020-E1,SP-020,2026-08-02 23:00:00,95,146,ED visit,heat / dehydration,6,48,0.297
+SP-020-E2,SP-020,2026-08-25 04:00:00,628,74,admitted,cold exposure,6,36,0.243
+SP-022-E1,SP-022,2026-04-28 16:00:00,232,86,admitted,cold exposure,8,15,0.506
+SP-022-E2,SP-022,2026-05-11 16:00:00,544,137,home-managed,cold exposure,8,42,0.608
+SP-023-E1,SP-023,2026-04-08 08:00:00,1208,131,admitted,cold exposure,8,14,0.878
+SP-024-E1,SP-024,2026-06-08 13:00:00,373,134,ED visit,cold exposure,10,24,0.294
+SP-025-E1,SP-025,2026-03-09 23:00:00,287,90,ED visit,cold exposure,10,43,0.633
+SP-025-E2,SP-025,2026-04-19 21:00:00,1269,98,ED visit,none identified,6,22,0.975
+SP-026-E1,SP-026,2026-07-09 22:00:00,1006,121,admitted,heat / dehydration,6,40,0.414
+SP-027-E1,SP-027,2026-03-23 01:00:00,1393,47,ED visit,none identified,8,15,0.659
+SP-028-E1,SP-028,2026-02-27 21:00:00,261,140,ED visit,none identified,6,29,0.446
+SP-028-E2,SP-028,2026-03-24 23:00:00,863,133,admitted,none identified,7,31,0.662
+SP-028-E3,SP-028,2026-04-14 12:00:00,1356,84,home-managed,cold exposure,8,34,0.535
+SP-031-E1,SP-031,2026-07-06 23:00:00,647,159,home-managed,cold exposure,8,30,1.095
+SP-032-E1,SP-032,2026-03-17 11:00:00,467,127,home-managed,cold exposure,8,46,0.558
+SP-033-E1,SP-033,2026-06-22 04:00:00,412,152,ED visit,cold exposure,6,17,0.597
+SP-034-E1,SP-034,2026-01-30 02:00:00,170,89,home-managed,none identified,9,41,0.681
+SP-034-E2,SP-034,2026-02-27 05:00:00,845,110,ED visit,cold exposure,7,36,0.487
+SP-035-E1,SP-035,2026-05-02 20:00:00,1172,156,ED visit,cold exposure,6,39,0.921
+SP-036-E1,SP-036,2026-08-15 01:00:00,169,108,admitted,cold exposure,9,24,0.819
+SP-036-E2,SP-036,2026-09-11 05:00:00,821,158,ED visit,cold exposure,10,27,0.634
+SP-036-E3,SP-036,2026-10-04 08:00:00,1376,64,ED visit,none identified,10,31,0.95
+SP-037-E1,SP-037,2026-04-24 18:00:00,66,157,home-managed,none identified,10,16,0.539
+SP-038-E1,SP-038,2026-07-14 20:00:00,572,102,admitted,heat / dehydration,7,36,0.553
+SP-040-E1,SP-040,2026-01-19 09:00:00,369,145,home-managed,cold exposure,8,42,0.469
+SP-040-E2,SP-040,2026-02-15 14:00:00,1022,52,home-managed,cold exposure,6,36,0.496
+SP-042-E1,SP-042,2026-03-08 09:00:00,321,79,admitted,infection,8,29,0.576
+SP-043-E1,SP-043,2026-04-25 23:00:00,215,82,admitted,none identified,6,44,0.129
+SP-044-E1,SP-044,2026-03-08 05:00:00,245,158,admitted,infection,7,30,0.663
+SP-044-E2,SP-044,2026-04-02 13:00:00,853,96,admitted,none identified,6,28,0.757
+SP-045-E1,SP-045,2026-07-08 04:00:00,628,89,home-managed,cold exposure,8,46,0.373
+SP-045-E2,SP-045,2026-08-10 11:00:00,1427,13,ED visit,none identified,7,18,0.61
+SP-046-E1,SP-046,2026-06-04 04:00:00,1156,133,home-managed,cold exposure,6,14,0.417
+SP-048-E1,SP-048,2026-09-07 02:00:00,1322,113,admitted,cold exposure,9,25,0.326
+SP-049-E1,SP-049,2026-03-03 19:00:00,379,52,admitted,infection,8,45,0.342
+SP-049-E2,SP-049,2026-03-22 01:00:00,817,95,home-managed,none identified,10,27,0.577
+SP-049-E3,SP-049,2026-04-02 07:00:00,1087,99,ED visit,none identified,7,17,0.563
+SP-051-E1,SP-051,2026-05-24 00:00:00,1200,59,home-managed,cold exposure,6,25,0.595
+SP-052-E1,SP-052,2026-03-04 03:00:00,219,137,ED visit,cold exposure,6,38,0.869
+SP-054-E1,SP-054,2026-05-09 14:00:00,998,56,ED visit,none identified,10,19,0.99
+SP-055-E1,SP-055,2026-03-18 12:00:00,324,138,home-managed,cold exposure,10,43,0.338
+SP-055-E2,SP-055,2026-04-03 17:00:00,713,129,home-managed,none identified,8,21,0.296
+SP-055-E3,SP-055,2026-04-26 17:00:00,1265,149,ED visit,cold exposure,9,40,0.268
+SP-057-E1,SP-057,2026-03-28 12:00:00,276,48,ED visit,cold exposure,8,44,0.55
+SP-057-E2,SP-057,2026-04-29 10:00:00,1042,155,ED visit,none identified,7,37,0.596
+SP-058-E1,SP-058,2026-05-14 07:00:00,367,55,ED visit,none identified,8,19,0.529
+SP-058-E2,SP-058,2026-06-21 08:00:00,1280,120,ED visit,cold exposure,8,31,0.403
+SP-059-E1,SP-059,2026-07-29 09:00:00,921,84,home-managed,cold exposure,9,43,0.5
+SP-060-E1,SP-060,2026-02-13 18:00:00,66,98,home-managed,none identified,6,41,0.663
+SP-062-E1,SP-062,2026-10-15 23:00:00,1439,1,ED visit,none identified,9,19,0.677
+SP-063-E1,SP-063,2026-03-27 04:00:00,700,147,admitted,cold exposure,6,48,0.461
+SP-063-E2,SP-063,2026-04-11 05:00:00,1061,86,ED visit,none identified,7,13,0.474
+SP-066-E1,SP-066,2026-03-01 01:00:00,553,95,home-managed,none identified,8,26,0.626
+SP-067-E1,SP-067,2026-04-26 14:00:00,326,162,ED visit,cold exposure,8,41,0.258
+SP-069-E1,SP-069,2026-08-24 20:00:00,188,129,home-managed,cold exposure,6,15,0.425
+SP-070-E1,SP-070,2026-01-13 23:00:00,143,59,home-managed,cold exposure,8,31,0.408
+SP-070-E2,SP-070,2026-02-16 13:00:00,949,123,admitted,none identified,8,43,0.612
+SP-071-E1,SP-071,2026-09-09 00:00:00,984,68,ED visit,infection,7,36,0.59
+SP-072-E1,SP-072,2026-03-12 01:00:00,649,102,ED visit,cold exposure,9,32,0.717
+SP-072-E2,SP-072,2026-04-10 11:00:00,1355,85,ED visit,cold exposure,8,14,0.557
+SP-074-E1,SP-074,2026-06-22 13:00:00,229,50,ED visit,infection,6,33,0.794
+SP-074-E2,SP-074,2026-07-09 17:00:00,641,89,ED visit,none identified,7,20,0.534
+SP-074-E3,SP-074,2026-08-04 15:00:00,1263,67,ED visit,cold exposure,10,20,0.954
+SP-077-E1,SP-077,2026-07-16 11:00:00,755,69,home-managed,heat / dehydration,9,42,0.397
+SP-078-E1,SP-078,2026-06-02 06:00:00,702,138,admitted,none identified,9,42,0.622
+SP-079-E1,SP-079,2026-07-06 03:00:00,219,74,ED visit,heat / dehydration,10,29,0.669
+SP-079-E2,SP-079,2026-08-03 23:00:00,911,150,ED visit,cold exposure,10,31,1.049
+SP-080-E1,SP-080,2026-07-17 14:00:00,902,128,home-managed,heat / dehydration,8,48,0.877
+SP-080-E2,SP-080,2026-08-01 17:00:00,1265,63,ED visit,cold exposure,7,31,0.594
+SP-081-E1,SP-081,2026-02-04 05:00:00,149,106,admitted,none identified,6,21,0.709
+SP-081-E2,SP-081,2026-03-03 18:00:00,810,118,ED visit,none identified,9,45,0.558
+SP-081-E3,SP-081,2026-03-15 17:00:00,1097,115,admitted,cold exposure,8,43,0.794
+SP-082-E1,SP-082,2026-05-12 09:00:00,585,97,home-managed,none identified,8,40,0.632
+SP-084-E1,SP-084,2026-03-13 18:00:00,210,75,admitted,cold exposure,9,38,0.266
+SP-084-E2,SP-084,2026-04-13 00:00:00,936,84,ED visit,cold exposure,6,31,0.178
+SP-085-E1,SP-085,2026-02-04 06:00:00,414,154,home-managed,none identified,9,48,0.468
+SP-085-E2,SP-085,2026-03-02 01:00:00,1033,91,admitted,none identified,10,28,0.278
+SP-085-E3,SP-085,2026-03-16 15:00:00,1383,57,home-managed,cold exposure,9,36,0.5
+SP-086-E1,SP-086,2026-04-10 01:00:00,601,124,ED visit,cold exposure,10,45,0.652
+SP-087-E1,SP-087,2026-04-24 14:00:00,422,105,ED visit,infection,10,20,0.264
+SP-088-E1,SP-088,2026-07-20 18:00:00,498,97,admitted,none identified,8,27,0.601
+SP-088-E2,SP-088,2026-08-19 01:00:00,1201,81,ED visit,heat / dehydration,10,25,0.362
+SP-089-E1,SP-089,2026-04-30 20:00:00,668,129,admitted,none identified,10,15,0.694
+SP-090-E1,SP-090,2026-06-14 15:00:00,159,79,admitted,cold exposure,10,22,0.17
+SP-091-E1,SP-091,2026-06-01 16:00:00,568,140,home-managed,cold exposure,8,42,0.247
+SP-091-E2,SP-091,2026-07-01 00:00:00,1272,124,home-managed,cold exposure,6,44,0.368
+SP-092-E1,SP-092,2026-07-26 20:00:00,1196,154,ED visit,none identified,8,20,0.353
+SP-093-E1,SP-093,2026-06-01 06:00:00,894,148,ED visit,cold exposure,9,38,1.009
+SP-094-E1,SP-094,2026-04-08 04:00:00,100,87,home-managed,cold exposure,9,15,0.631
+SP-095-E1,SP-095,2026-08-21 15:00:00,1119,50,home-managed,heat / dehydration,9,39,0.696
+SP-097-E1,SP-097,2026-10-06 15:00:00,1095,159,ED visit,cold exposure,6,35,0.758
+SP-098-E1,SP-098,2026-07-22 23:00:00,359,167,home-managed,heat / dehydration,10,25,0.752
+SP-098-E2,SP-098,2026-08-10 17:00:00,809,155,ED visit,cold exposure,6,17,0.902
+SP-098-E3,SP-098,2026-09-04 11:00:00,1403,37,ED visit,cold exposure,8,44,0.877
+SP-099-E1,SP-099,2026-07-15 17:00:00,617,54,home-managed,cold exposure,7,14,0.646
+SP-100-E1,SP-100,2026-02-28 07:00:00,151,137,home-managed,none identified,9,33,0.439
+SP-100-E2,SP-100,2026-03-26 16:00:00,784,102,ED visit,cold exposure,9,40,0.249
+SP-100-E3,SP-100,2026-04-08 03:00:00,1083,120,ED visit,none identified,7,16,0.239
+SP-101-E1,SP-101,2026-03-16 02:00:00,890,126,ED visit,cold exposure,8,19,0.496
+SP-102-E1,SP-102,2026-06-08 06:00:00,486,103,ED visit,cold exposure,10,33,0.833
+SP-103-E1,SP-103,2026-02-17 13:00:00,589,105,ED visit,cold exposure,9,30,0.529
+SP-104-E1,SP-104,2026-03-02 20:00:00,740,159,admitted,cold exposure,7,12,0.48
+SP-104-E2,SP-104,2026-03-22 04:00:00,1204,108,ED visit,none identified,9,16,0.727
+SP-105-E1,SP-105,2026-08-28 08:00:00,248,59,home-managed,heat / dehydration,9,27,0.494
+SP-106-E1,SP-106,2026-05-07 07:00:00,151,156,ED visit,none identified,8,41,0.525
+SP-106-E2,SP-106,2026-05-24 21:00:00,573,106,home-managed,none identified,8,35,0.573
+SP-106-E3,SP-106,2026-06-22 22:00:00,1270,127,ED visit,cold exposure,8,14,0.619
+SP-107-E1,SP-107,2026-07-15 10:00:00,1138,76,ED visit,none identified,9,44,0.894
+SP-110-E1,SP-110,2026-01-31 06:00:00,54,155,ED visit,cold exposure,9,42,0.49
+SP-110-E2,SP-110,2026-02-20 04:00:00,532,139,ED visit,none identified,10,29,0.787
+SP-111-E1,SP-111,2026-04-01 14:00:00,230,102,admitted,none identified,10,34,0.863
+SP-111-E2,SP-111,2026-05-15 04:00:00,1276,117,home-managed,cold exposure,6,24,0.682
+SP-112-E1,SP-112,2026-04-02 06:00:00,1182,117,home-managed,cold exposure,9,12,0.627
+SP-113-E1,SP-113,2026-06-14 20:00:00,428,91,home-managed,heat / dehydration,9,12,0.44
+SP-114-E1,SP-114,2026-10-01 00:00:00,912,59,home-managed,cold exposure,8,16,0.763
+SP-115-E1,SP-115,2026-04-22 17:00:00,569,85,home-managed,cold exposure,8,39,0.3
+SP-115-E2,SP-115,2026-05-03 08:00:00,824,73,admitted,cold exposure,10,15,0.355
+SP-116-E1,SP-116,2026-05-20 06:00:00,222,112,admitted,cold exposure,7,17,0.625
+SP-117-E1,SP-117,2026-04-20 21:00:00,981,112,home-managed,cold exposure,8,20,0.716
+SP-118-E1,SP-118,2026-06-07 04:00:00,1180,55,ED visit,none identified,10,12,0.605
+SP-119-E1,SP-119,2026-04-15 15:00:00,543,128,admitted,cold exposure,7,21,0.703
+SP-119-E2,SP-119,2026-05-14 15:00:00,1239,74,ED visit,cold exposure,10,47,0.403
+SP-120-E1,SP-120,2026-07-08 12:00:00,468,57,ED visit,cold exposure,7,48,0.212
+SP-121-E1,SP-121,2026-08-06 07:00:00,559,126,home-managed,heat / dehydration,10,18,0.597
+SP-122-E1,SP-122,2026-03-13 02:00:00,170,162,ED visit,infection,6,32,0.55
+SP-123-E1,SP-123,2026-07-22 03:00:00,411,148,home-managed,cold exposure,10,25,0.738
+SP-123-E2,SP-123,2026-08-07 16:00:00,808,121,ED visit,infection,6,45,0.916
+SP-124-E1,SP-124,2026-05-11 10:00:00,1426,14,home-managed,cold exposure,7,23,0.509
+SP-125-E1,SP-125,2026-02-13 04:00:00,532,102,ED visit,cold exposure,9,29,0.378
+SP-126-E1,SP-126,2026-04-16 08:00:00,1088,49,admitted,none identified,7,26,0.552
+SP-129-E1,SP-129,2026-04-18 20:00:00,1100,157,admitted,infection,9,45,0.613
+SP-130-E1,SP-130,2026-08-01 18:00:00,498,164,admitted,none identified,7,41,0.952
+SP-134-E1,SP-134,2026-06-16 15:00:00,375,89,home-managed,cold exposure,10,26,0.455
+SP-134-E2,SP-134,2026-07-15 22:00:00,1078,162,home-managed,cold exposure,10,39,0.526
+SP-135-E1,SP-135,2026-02-16 12:00:00,324,92,ED visit,cold exposure,7,25,0.469
+SP-135-E2,SP-135,2026-02-27 10:00:00,586,69,home-managed,cold exposure,6,40,0.742
+SP-135-E3,SP-135,2026-03-20 04:00:00,1084,127,admitted,infection,6,37,0.782
+SP-136-E1,SP-136,2026-04-04 00:00:00,1248,96,ED visit,cold exposure,9,27,0.327
+SP-139-E1,SP-139,2026-04-09 14:00:00,854,146,home-managed,cold exposure,6,41,0.479
+SP-142-E1,SP-142,2026-05-31 01:00:00,241,75,home-managed,none identified,10,20,0.707
+SP-143-E1,SP-143,2026-03-17 11:00:00,227,142,ED visit,none identified,7,28,0.904
+SP-143-E2,SP-143,2026-05-05 00:00:00,1392,48,home-managed,none identified,9,19,0.499
+SP-144-E1,SP-144,2026-04-03 22:00:00,358,65,home-managed,infection,7,27,0.413
+SP-144-E2,SP-144,2026-04-26 03:00:00,891,84,ED visit,cold exposure,6,48,0.412
+SP-144-E3,SP-144,2026-05-06 23:00:00,1151,48,admitted,cold exposure,7,22,0.418
+SP-145-E1,SP-145,2026-02-27 17:00:00,233,107,home-managed,cold exposure,9,30,0.502
+SP-145-E2,SP-145,2026-03-28 03:00:00,915,141,home-managed,none identified,9,42,0.661
+SP-145-E3,SP-145,2026-04-14 18:00:00,1338,56,home-managed,none identified,8,38,0.615
+SP-146-E1,SP-146,2026-04-29 06:00:00,222,73,home-managed,none identified,10,13,0.768
+SP-146-E2,SP-146,2026-05-18 11:00:00,683,118,ED visit,cold exposure,8,48,0.912
+SP-148-E1,SP-148,2026-06-28 11:00:00,635,60,ED visit,cold exposure,9,21,0.392
+SP-148-E2,SP-148,2026-07-13 17:00:00,1001,55,ED visit,heat / dehydration,10,29,0.352
+SP-149-E1,SP-149,2026-01-29 02:00:00,314,156,home-managed,none identified,6,45,0.588
+SP-149-E2,SP-149,2026-02-22 12:00:00,900,101,home-managed,cold exposure,6,21,0.41
+SP-150-E1,SP-150,2026-05-08 09:00:00,57,129,admitted,none identified,7,13,0.706
+SP-150-E2,SP-150,2026-05-27 09:00:00,513,157,ED visit,none identified,9,24,0.571
+SP-151-E1,SP-151,2026-05-23 10:00:00,418,115,admitted,cold exposure,8,14,0.545
+SP-152-E1,SP-152,2026-07-10 09:00:00,129,63,ED visit,heat / dehydration,7,31,0.712
+SP-153-E1,SP-153,2026-07-14 08:00:00,1160,56,home-managed,heat / dehydration,10,21,0.97
+SP-154-E1,SP-154,2026-04-14 11:00:00,59,142,ED visit,none identified,10,33,0.34
+SP-155-E1,SP-155,2026-04-13 05:00:00,197,61,ED visit,cold exposure,9,18,0.608
+SP-155-E2,SP-155,2026-04-29 05:00:00,581,71,admitted,cold exposure,9,13,0.811
+SP-155-E3,SP-155,2026-05-09 07:00:00,823,67,admitted,cold exposure,9,12,1.0
+SP-155-E4,SP-155,2026-06-02 00:00:00,1392,48,home-managed,heat / dehydration,8,30,0.633
+SP-156-E1,SP-156,2026-05-04 07:00:00,55,58,ED visit,none identified,9,41,1.004
+SP-157-E1,SP-157,2026-03-14 00:00:00,192,142,ED visit,none identified,9,34,0.276
+SP-157-E2,SP-157,2026-04-29 00:00:00,1296,105,ED visit,none identified,9,43,0.407
+SP-158-E1,SP-158,2026-06-21 18:00:00,594,113,admitted,cold exposure,7,40,0.649
+SP-159-E1,SP-159,2026-04-11 02:00:00,410,99,ED visit,cold exposure,8,20,0.352
+SP-159-E2,SP-159,2026-05-11 06:00:00,1134,99,ED visit,none identified,10,34,0.235
+SP-159-E3,SP-159,2026-05-23 21:00:00,1437,3,ED visit,cold exposure,10,14,0.347
+SP-160-E1,SP-160,2026-06-13 01:00:00,121,144,home-managed,none identified,6,29,0.129
+SP-162-E1,SP-162,2026-02-02 03:00:00,339,149,ED visit,cold exposure,10,45,0.55
+SP-162-E2,SP-162,2026-02-25 13:00:00,901,168,ED visit,none identified,10,22,0.459
+SP-164-E1,SP-164,2026-09-16 19:00:00,931,137,ED visit,cold exposure,9,19,0.675
+SP-164-E2,SP-164,2026-09-29 20:00:00,1244,147,admitted,none identified,6,44,0.541
+SP-165-E1,SP-165,2026-07-17 15:00:00,279,158,home-managed,cold exposure,7,29,0.896
+SP-165-E2,SP-165,2026-08-05 06:00:00,726,82,admitted,cold exposure,6,27,0.665
+SP-165-E3,SP-165,2026-08-28 11:00:00,1283,57,ED visit,cold exposure,6,36,0.86
+SP-166-E1,SP-166,2026-07-19 22:00:00,334,83,home-managed,heat / dehydration,7,38,0.814
+SP-166-E2,SP-166,2026-08-10 08:00:00,848,95,ED visit,cold exposure,6,17,0.709
+SP-167-E1,SP-167,2026-06-26 07:00:00,487,156,ED visit,none identified,8,37,0.26
+SP-168-E1,SP-168,2026-07-07 08:00:00,56,64,home-managed,none identified,6,41,0.794
+SP-168-E2,SP-168,2026-07-30 10:00:00,610,129,ED visit,heat / dehydration,6,21,0.476
+SP-168-E3,SP-168,2026-08-12 12:00:00,924,167,admitted,cold exposure,10,17,0.537
+SP-168-E4,SP-168,2026-08-31 15:00:00,1383,57,ED visit,infection,7,38,0.766
+SP-169-E1,SP-169,2026-04-30 19:00:00,715,105,ED visit,cold exposure,7,43,0.484
+SP-169-E2,SP-169,2026-05-12 17:00:00,1001,139,admitted,none identified,10,27,0.356
+SP-171-E1,SP-171,2026-03-17 07:00:00,991,69,home-managed,none identified,7,30,0.254
+SP-173-E1,SP-173,2026-08-21 01:00:00,865,61,home-managed,cold exposure,9,43,0.492
+SP-174-E1,SP-174,2026-08-07 16:00:00,976,74,home-managed,cold exposure,7,35,0.598
+SP-175-E1,SP-175,2026-08-26 23:00:00,743,142,home-managed,cold exposure,10,45,0.715
+SP-177-E1,SP-177,2026-06-29 20:00:00,572,160,admitted,heat / dehydration,7,41,1.124
+SP-178-E1,SP-178,2026-09-05 17:00:00,353,48,home-managed,cold exposure,8,45,0.485
+SP-178-E2,SP-178,2026-09-15 20:00:00,596,85,ED visit,infection,9,35,0.719
+SP-179-E1,SP-179,2026-04-05 14:00:00,902,141,home-managed,none identified,6,13,0.716
+SP-180-E1,SP-180,2026-07-11 06:00:00,1182,119,home-managed,cold exposure,6,48,0.329
+SP-182-E1,SP-182,2026-05-27 20:00:00,1196,102,home-managed,cold exposure,10,27,0.53
+SP-183-E1,SP-183,2026-03-03 04:00:00,124,78,home-managed,cold exposure,8,35,0.452
+SP-183-E2,SP-183,2026-03-20 05:00:00,533,77,ED visit,cold exposure,6,42,0.636
+SP-183-E3,SP-183,2026-04-24 19:00:00,1387,53,ED visit,cold exposure,7,25,0.594
+SP-185-E1,SP-185,2026-06-22 19:00:00,259,107,home-managed,cold exposure,9,26,0.654
+SP-185-E2,SP-185,2026-08-04 04:00:00,1276,120,ED visit,cold exposure,10,37,0.696
+SP-187-E1,SP-187,2026-06-23 14:00:00,878,168,admitted,heat / dehydration,8,45,0.895
+SP-188-E1,SP-188,2026-07-02 02:00:00,554,132,admitted,cold exposure,8,24,0.406
+SP-189-E1,SP-189,2026-08-18 00:00:00,1416,24,home-managed,none identified,6,12,0.815
+SP-192-E1,SP-192,2026-05-13 12:00:00,348,107,home-managed,none identified,9,18,0.499
+SP-192-E2,SP-192,2026-05-25 21:00:00,645,107,home-managed,cold exposure,6,18,0.358
+SP-194-E1,SP-194,2026-09-28 11:00:00,899,60,admitted,heat / dehydration,6,23,0.761
+SP-195-E1,SP-195,2026-08-18 08:00:00,152,84,ED visit,cold exposure,7,44,0.376
+SP-195-E2,SP-195,2026-10-03 22:00:00,1270,58,home-managed,none identified,9,40,0.592
+SP-196-E1,SP-196,2026-08-26 03:00:00,1035,143,home-managed,heat / dehydration,10,26,0.471
+SP-197-E1,SP-197,2026-08-13 19:00:00,547,134,home-managed,cold exposure,8,37,0.681
+SP-198-E1,SP-198,2026-06-02 07:00:00,295,116,home-managed,none identified,10,18,0.711
+SP-198-E2,SP-198,2026-07-12 11:00:00,1259,94,admitted,none identified,8,23,0.505
+SP-199-E1,SP-199,2026-05-12 14:00:00,1310,127,home-managed,cold exposure,7,32,0.659

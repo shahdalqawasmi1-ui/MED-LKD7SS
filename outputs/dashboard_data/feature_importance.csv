@@ -1,0 +1,22 @@
+level,feature,auroc_drop
+modality,Multi-λ PPG (520/660/940),0.0308
+modality,Isosbestic 810 nm + transit,0.0788
+modality,Electrodermal (EDA),0.054
+modality,Peripheral thermistor,0.0062
+modality,Cardiac (HR / HRV),0.0188
+modality,Activity & context,0.0122
+channel,ppg_pi_520,-0.0056
+channel,ppg_pi_660,0.0073
+channel,ppg_pi_940,-0.0041
+channel,ppg_pi_810,0.0155
+channel,ror_660_940,0.0063
+channel,spo2_est,0.0072
+channel,transit_delay_810_ms,0.0565
+channel,heart_rate_bpm,0.0062
+channel,hrv_rmssd_ms,0.004
+channel,eda_tonic_us,0.0322
+channel,eda_scr_per_min,0.0116
+channel,skin_temp_c,0.0007
+channel,ambient_temp_c,0.0044
+channel,steps_per_hour,0.0138
+channel,signal_quality,0.001

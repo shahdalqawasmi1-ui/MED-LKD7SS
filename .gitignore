@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+data/sicklepredict.db
+.DS_Store

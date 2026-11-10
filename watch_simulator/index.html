@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SicklePredict Watch Simulator</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrap" id="app">
+  <header class="top">
+    <div class="brand">
+      <p class="eyebrow" data-t="eyebrow"></p>
+      <h1 data-t="title"></h1>
+      <p class="lede" data-t="lede"></p>
+    </div>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" id="lang-ar" aria-pressed="true">العربية</button>
+      <button type="button" id="lang-en" aria-pressed="false">English</button>
+    </div>
+  </header>
+  <p class="notice" data-t="notice"></p>
+
+  <div class="main">
+    <section class="bench" aria-label="Watch">
+      <div class="strap"></div>
+      <div class="case" id="case">
+        <button class="crown" id="crown" type="button" aria-label="Next screen"></button>
+        <span class="side-btn" aria-hidden="true"></span>
+        <div class="screen" id="screen" aria-live="polite"></div>
+      </div>
+      <div class="strap bottom"></div>
+      <div class="bench-ctl">
+        <button class="chip-btn" type="button" id="prev-screen" data-t="prevScreen"></button>
+        <button class="chip-btn" type="button" id="next-screen" data-t="nextScreen"></button>
+      </div>
+      <div class="phone-note" id="phone-note" hidden>
+        <div class="ph-head"><span data-t="phoneApp"></span><span class="num" id="phone-time"></span></div>
+        <b data-t="phoneTitle"></b>
+        <span id="phone-body"></span>
+      </div>
+    </section>
+
+    <section class="console">
+      <div class="card">
+        <h2 data-t="pickTitle"></h2>
+        <div class="scns" id="scns"></div>
+      </div>
+
+      <div class="card">
+        <div class="player">
+          <button class="btn" type="button" id="play"></button>
+          <button class="btn ghost" type="button" id="restart" data-t="restart"></button>
+          <label><span data-t="speed"></span>
+            <select id="speed">
+              <option value="900" data-t="speedSlow"></option>
+              <option value="350" selected data-t="speedMed"></option>
+              <option value="120" data-t="speedFast"></option>
+            </select>
+          </label>
+          <label><input type="checkbox" id="pause-alert" checked> <span data-t="pauseOnAlert"></span></label>
+          <span class="clock-big" id="clock-big"></span>
+        </div>
+        <div class="tl" id="tl" dir="ltr"></div>
+        <input type="range" dir="ltr" id="scrub" min="0" max="119" value="0" aria-label="Time">
+        <div class="legend">
+          <span><i style="background:var(--accent)"></i><span data-t="lgRisk"></span></span>
+          <span><i style="background:transparent;border-top:2px dashed var(--muted);height:0"></i><span data-t="lgThr"></span></span>
+          <span><i style="background:var(--bad);opacity:.25"></i><span data-t="lgVoc"></span></span>
+          <span><i style="background:var(--info);opacity:.3"></i><span data-t="lgCold"></span></span>
+          <span><i style="background:var(--warn);opacity:.35"></i><span data-t="lgPro"></span></span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2 data-t="truthTitle"></h2>
+        <p class="hint" data-t="truthHint"></p>
+        <div class="truth">
+          <div style="display:grid;gap:8px;align-content:start">
+            <div class="facts" id="facts"></div>
+            <div class="countdown" id="countdown"></div>
+          </div>
+          <p class="narr" id="narr"></p>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2 data-t="sigTitle"></h2>
+        <div class="sig-tabs" id="sig-tabs"></div>
+        <div class="tl" id="sig" dir="ltr"></div>
+        <p class="tiny" data-t="sigHint"></p>
+      </div>
+
+      <div class="card">
+        <h2 data-t="logTitle"></h2>
+        <ul class="log" id="log"></ul>
+        <p class="outcome" id="outcome" hidden></p>
+      </div>
+    </section>
+  </div>
+</div>
+
+<noscript><p>This simulator needs JavaScript.</p></noscript>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
