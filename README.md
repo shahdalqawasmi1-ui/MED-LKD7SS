@@ -3,6 +3,18 @@
 **A multispectral wearable and AI model for early warning of vaso-occlusive crises (VOC) in sickle cell disease.**
 MEDATHON 2026 · Filter 2 · Track 3: Medical Tools & Devices Innovation
 
+## ▶️ Try the interactive watch simulator / جرّب محاكي الساعة التفاعلي
+
+### **[🔗 Open the live simulator: shahdalqawasmi1-ui.github.io/MED-LKD7SS/watch_simulator](https://shahdalqawasmi1-ui.github.io/MED-LKD7SS/watch_simulator/)**
+
+It runs in any browser with no install. Pick a scenario and press Play to watch the risk score rise hour by hour and the early-warning alert fire before the crisis. Arabic and English are supported.
+
+[![SicklePredict watch screens](docs/images/watch_screens.png)](https://shahdalqawasmi1-ui.github.io/MED-LKD7SS/watch_simulator/)
+
+[![SicklePredict simulator](docs/images/simulator_page.png)](https://shahdalqawasmi1-ui.github.io/MED-LKD7SS/watch_simulator/)
+
+---
+
 > ⚠️ **All patient data in this repository is simulated.** The pre-crisis physiological signature is an assumption written into the simulator. The results show that the full pipeline works, from signals to alerts. They are **not** evidence of clinical accuracy, which requires the IRB-approved pilot study described in the proposal.
 
 ---
